@@ -1,4 +1,8 @@
 fun main(args: Array<String>){
+    //Print a statement that asks the user for a number 1-10
+    //Assign user's number to variable, and create a string variable for what each number is called in the loop
+    //Create when statement for when user's number is between 1-10, create variable for the string of each answer
+    //Have the program print the string of the translated number
     println("Number translator! Enter a number between 1 and 10:")
     var number = readLine()!!.toInt()
     var numberString = "x"
